@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Link -->
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Where the heck am I?</title>
+    </head>
+    <body class="darkblue-mode">
+        <header class="lightblue-mode">
+            <nav class="navbar">
+                <h1 class="title">Where in the world?</h1>
+                <div class="dark-mode-container">
+                    <i class="fa-regular fa-moon"></i>
+                    <p class="theme-mode">Dark Mode</p>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="searchbar-container">
+                <input
+                    class="lightblue-mode"
+                    type="search"
+                    name="Country"
+                    id="search-bar"
+                    placeholder="Search for a country..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <select
+                    class="region-container lightblue-mode"
+                    name="continent"
+                    id="continent-select">
+                    <option disabled="disabled" selected="selected" value="">
+                        Filter by Region
+                    </option>
+                    <option value="">All regions</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </section>
+            <section class="country-container">
+                <!-- Country Start -->
+                <!-- <div class="country lightblue-mode">
+                    <img
+                        class="country-flag"
+                        src="https://flagcdn.com/w320/se.png"
+                        alt="Sweden" />
+                    <div class="country-info">
+                        <h2 id="country-name">Sweden</h2>
+                        <p>
+                            Population:
+                            <span id="country-population">10,353,442</span>
+                        </p>
+                        <p>Region: <span id="country-region">Europe</span></p>
+                        <p>
+                            Capital: <span id="country-capital">Stockholm</span>
+                        </p>
+                    </div>
+                </div> -->
+                <!-- Country End -->
+            </section>
+        </main>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/4d90af9494.js"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</html>
